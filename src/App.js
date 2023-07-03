@@ -4,6 +4,7 @@ import Footer from './components/Footer.jsx';
 import Banner from './components/Banner.jsx';
 import BannerTwo from './components/BannerTwo.jsx';
 import BannerThree from './components/BannerThree.jsx';
+import BannerFour from './components/BannerFour.jsx';
 
 import './styles/App.css';
 
@@ -40,6 +41,11 @@ function App() {
     <BannerTwo info={bannerMaterialOne}/>
 
     <BannerThree data={bannerMaterialTwo}/>
+
+    <BannerFour 
+      howMany={3}
+      shirt="Puma"
+      data={bannerMaterialOne} />
 
    <Footer />
    </>
